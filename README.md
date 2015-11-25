@@ -1,7 +1,7 @@
 ## SOLID - Principles that Apply
 
 This page is destinated to collect some good resources (IMHO) in order to give
-an overview over good priciples that should apply to software designe.
+an overview over good priciples that should be applied to software design.
 
 - [Intro to `SOLID`](http://www.wikiwand.com/en/SOLID_(object-oriented_design))
     - `S`: Single Responsibility Principle.
@@ -17,16 +17,21 @@ an overview over good priciples that should apply to software designe.
     - `I`: Interface Segregation Principle
         - [link](http://www.oodesign.com/dependency-inversion-principle.html)
         - [Wiki](https://en.wikipedia.org/wiki/Interface_segregation_principle)
-    - `D`:
+    - `D`: Dependency Inversion Principle
+        - [link](http://www.oodesign.com/dependency-inversion-principle.html)
+        - [Code Tutorials](http://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872)
+        - **Program to an interface, not an implementation.**
 
 ## Running the Code
 
 All the submodules are managed in the same way, which means you can run the code using the same syntax. For example, if you want to see the result of the sample code for Open/Close principle, just run:
 
 ```
-python -m python_code.bad.open\_close   # See the result of bad implementation
-python -m python_code.good.open\_close  # See the result of good implementation
+python -m python_code.bad.open_close   # See the result of bad implementationgi
+python -m python_code.good.open_close  # See the result of good implementation
 ```
+
+Or, you can run `python -m python_code --list` or `python -m python_code -l` to see all the available submodules.
 
 However, it is recommanded to see the source code and get an understanding of what the issue is and possible way to solve it.
 
@@ -37,3 +42,5 @@ Enjoy coding!
 - [Programming Done By Superstition](https://utcc.utoronto.ca/~cks/space/blog/programming/ProgrammingViaSuperstition)
 - [Object Mentor](http://www.objectmentor.com/resources/publishedArticles.html)
 - [Clean Coder](http://cleancoders.com/category/fundamentals)
+- [Code Tutorials](http://code.tutsplus.com/series/the-solid-principles--cms-634)
+- [搞笑談軟工](http://teddy-chen-tw.blogspot.tw/2012/01/5dependency-inversion-principle.html)
