@@ -27,7 +27,7 @@ an overview over good priciples that should be applied to software design.
 All the submodules are managed in the same way, which means you can run the code using the same syntax. For example, if you want to see the result of the sample code for Open/Close principle, just run:
 
 ```
-python -m python_code.bad.open_close   # See the result of bad implementationgi
+python -m python_code.bad.open_close   # See the result of bad implementation
 python -m python_code.good.open_close  # See the result of good implementation
 ```
 
