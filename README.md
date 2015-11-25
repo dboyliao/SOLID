@@ -19,6 +19,19 @@ an overview over good priciples that should apply to software designe.
         - [Wiki](https://en.wikipedia.org/wiki/Interface_segregation_principle)
     - `D`:
 
+## Running the Code
+
+All the submodules are managed in the same way, which means you can run the code using the same syntax. For example, if you want to see the result of the sample code for Open/Close principle, just run:
+
+```
+python -m python_code.bad.open\_close   # See the result of bad implementation
+python -m python_code.good.open\_close  # See the result of good implementation
+```
+
+However, it is recommanded to see the source code and get an understanding of what the issue is and possible way to solve it.
+
+Enjoy coding!
+
 ## Other Interesting Articles
 
 - [Programming Done By Superstition](https://utcc.utoronto.ca/~cks/space/blog/programming/ProgrammingViaSuperstition)
