@@ -8,7 +8,9 @@ an overview over good priciples that should apply to software designe.
         - [link](http://www.oodesign.com/single-responsibility-principle.html)
     - `O`: Open/Close Principle.
         - [link](http://joelabrahamsson.com/a-simple-example-of-the-openclosed-principle/)
-    - `L`:
+    - `L`: Liskov Substitution Principle.
+        - [link](http://www.objectmentor.com/resources/articles/lsp.pdf)
+        - [Circle-Ellipse Problem](https://en.wikipedia.org/wiki/Circle-ellipse_problem)
     - `I`:
     - `D`:
 
