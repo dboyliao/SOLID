@@ -14,7 +14,9 @@ an overview over good priciples that should apply to software designe.
         - [Circle-Ellipse Problem](https://en.wikipedia.org/wiki/Circle-ellipse_problem)
         - **Moral of the story: model your classes based on behaviours not on properties; model your data based on properties and not on behaviours. If it behaves like a duck, it's certainly a bird.**
         - **This strongly suggests that inheritance should never be used when the sub-class restricts the freedom implicit in the base class, but should only be used when the sub-class adds extra detail to the concept represented by the base class as in 'Monkey' is-an 'Animal'.**
-    - `I`:
+    - `I`: Interface Segregation Principle
+        - [link](http://www.oodesign.com/dependency-inversion-principle.html)
+        - [Wiki](https://en.wikipedia.org/wiki/Interface_segregation_principle)
     - `D`:
 
 ## Other Interesting Articles
