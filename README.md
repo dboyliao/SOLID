@@ -1,6 +1,6 @@
 ## SOLID - Principles that Apply
 
-This page is destinated to collect some good resources (IMHO) in order to give
+This page is designated to collect some good resources (IMHO) in order to give
 an overview over good priciples that should be applied to software design.
 
 - [Intro to `SOLID`](http://www.wikiwand.com/en/SOLID_(object-oriented_design))
