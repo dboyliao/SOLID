@@ -51,7 +51,7 @@ def main():
     manager.set_worker(worker)
     manager.manage()
 
-    # The following will not work...
+    # The following will work!
     super_worker = SuperWorker()
     try:
         manager.set_worker(super_worker)
