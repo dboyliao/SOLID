@@ -18,10 +18,10 @@ class AbstractWorker(object):
 class Worker(AbstractWorker):
 
     def work(self):
-        print "I'm normal worker. I'm working."
+        print("I'm normal worker. I'm working.")
 
     def eat(self):
-        print "Lunch break....(5 secs)"
+        print("Lunch break....(5 secs)")
         time.sleep(5)
 
 class SuperWorker(AbstractWorker):
