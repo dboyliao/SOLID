@@ -38,7 +38,7 @@ def main():
     try:
         prisoner.WalkNorth(10)
         prisoner.WalkEast(-3)
-    except:
+    except IndexError:
         pass
     
     print("The location of the prison: {}".format(prisoner.PRISON_LOCATION))

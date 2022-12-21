@@ -97,7 +97,7 @@ def main():
     try:
         break_manager.set_worker(Robot())
         break_manager.lunch_break()
-    except:
+    except IndexError:
         pass
     
 if __name__ == '__main__':
