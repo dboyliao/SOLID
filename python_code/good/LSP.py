@@ -36,7 +36,7 @@ def main():
         pass
     
     print("The location of the prison: {}".format(prisoner.PRISON_LOCATION))
-    print("The current position of the prisoner: {}".format(prisoner.position))
+    print("The current positionadf of the prisoner: {}".format(prisoner.position))
 
 if __name__ == "__main__":
     main()
