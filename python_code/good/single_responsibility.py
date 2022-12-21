@@ -73,7 +73,7 @@ def main():
     email.setReceiver('james')
     content = MyContent('Hello, there!')
     email.setContent(content)
-    print email
+    print(email)
 
 if __name__ == '__main__':
     main()

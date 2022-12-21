@@ -27,10 +27,10 @@ class Worker(AbstractWorker):
 class SuperWorker(AbstractWorker):
 
     def work(self):
-        print "I'm super worker. I work very hard!"
+        print("I'm super worker. I work very hard!")
 
     def eat(self):
-        print "Lunch break....(3 secs)"
+        print("Lunch break....(3 secs)")
         time.sleep(3)
 
 
@@ -40,7 +40,7 @@ class Manager(object):
         self.worker = None
 
     def set_worker(self, worker):
-        assert isinstance(worker, AbstractWorker), "`worker` must be of type {}".format(AbstractWorker)
+        assert isinstance(worker, AbstractWorker),("`worker` must be of type {}".format(AbstractWorker))
 
         self.worker = worker
 
@@ -56,10 +56,10 @@ class Manager(object):
 class Robot(AbstractWorker):
 
     def work(self):
-        print "I'm a robot. I'm working...."
+        print("I'm a robot. I'm working....")
 
     def eat(self):
-        print "I don't need to eat...."   # This code doing nothing but it is a must. (Bad!)
+        print("I don't need to eat....")   # This code doing nothing but it is a must. (Bad!)
 
 def main():
 
